@@ -1,5 +1,5 @@
 ---
 layout: post
-title: "Lab opens"
+title: "We join the BioDiscovery Institute"
 ---
-Lab opens in Fall 2024
+Rohan is now a member of the BioDiscovery Institute, UNT
