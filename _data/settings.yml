@@ -14,8 +14,7 @@ people:
 - {name: 'Anika Mallela', title: 'student', department: 'TAMS', institution: 'UNT'}
 - {name: 'Amaira Nagar', title: 'student', institution: 'UNT'}
 - {name: 'Gabriel Matthew', title: 'student', institution: 'UNT'}
-- {name: 'Lab Technician', title: '', department: '', institution: '', phone: '', email: '', office: '', image: 'assets/img/scrappy_a.jpeg', url: 'lab-technician'}
-- {name: 'Graduate Student', title: '', department: '', institution: '', phone: '', email: '', office: '', image: 'assets/img/scrappy_b.jpeg', url: 'graduate-student'}
+
 
 courses:
 - {name: '<b>BIOL 4801-Microbial Genetics:</b> Spring 2025', url: ''}
