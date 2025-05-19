@@ -18,7 +18,7 @@ people:
 - {name: 'Graduate Student', title: '', department: '', institution: '', phone: '', email: '', office: '', image: 'assets/img/scrappy_b.jpeg', url: 'graduate-student'}
 
 courses:
-- {name: '<b>BIOL 4801-Microbial Genetics:</b> Spring 2025 (details coming soon)', url: ''}
+- {name: '<b>BIOL 4801-Microbial Genetics:</b> Spring 2025', url: ''}
 
 
 contacts:
