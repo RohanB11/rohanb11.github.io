@@ -1,0 +1,54 @@
+/* === Custom Theme Overrides === */
+
+/* Light mode colors */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --link-color: #2b6cb0;
+  --accent-color: #2b6cb0;
+  --heading-color: #111111;
+  --max-content-width: 850px;
+  --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-heading: "Merriweather", Georgia, serif;
+}
+
+/* Dark mode colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1e1e1e;
+    --text-color: #e4e4e4;
+    --link-color: #63b3ed;
+    --accent-color: #63b3ed;
+    --heading-color: #ffffff;
+  }
+}
+
+/* Apply the colors and fonts */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-body);
+  line-height: 1.7;
+  margin: 0 auto;
+  max-width: var(--max-content-width);
+  padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--heading-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add more breathing room */
+section, article {
+  margin-bottom: 3rem;
+}
