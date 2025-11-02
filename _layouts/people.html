@@ -1,38 +1,39 @@
 ---
 layout: default
 ---
-{% for person in site.data.settings.people %}
-  {% if person.header %}
-<h3 class="people-header">{{ person.header }}</h3>
-  {% else %}
-<div class="person">
-  <h4>{{ person.name }}</h4>
-  <p>{{ person.title }}{% if person.department %}, {{ person.department }}{% endif %}</p>
-  <p>{{ person.institution }}</p>
-  {% if person.email %}
-<p>Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
-  {% endif %}
-</div>
-  {% endif %}
-{% endfor %}
-
 
 {{ content }}
+
 <link rel="stylesheet" href="assets/css/academicons.min.css"/>
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-<h3 class="fw-bold border-bottom pb-3 mb-7">People</h3>
-{% for person in site.data.settings.people %}
-<div class="row g-5 mb-5">
-  <div class="col-md-6">
-    <p><h5>{{ person.name }}</h5><p>
-    <p>{{ person.title }}</p>
-    <p><b>affiliations</b>: {{ person.department }}</p>
-    <p><b>email</b>: {{ person.email }}</p>
-    <p><b>office/lab</b>: {{ person.office }}</p>
-    <p><a href="{{ person.url }}"target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a></p>
-  </div>
-  <div class="col-md-4">
-    <img src="{{ site.github.url }}/{{ person.image }}" alt="Contact" width="50%">
-  </div>
+
+<div class="people-container">
+  {% for person in site.data.settings.people %}
+    {% if person.header %}
+      <h3 class="people-header">{{ person.header }}</h3>
+    {% else %}
+      <div class="row g-5 mb-5 person">
+        <div class="col-md-6">
+          <h5>{{ person.name }}</h5>
+          <p>{{ person.title }}</p>
+          {% if person.department %}<p><b>Affiliations:</b> {{ person.department }}</p>{% endif %}
+          {% if person.email %}<p><b>Email:</b> <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>{% endif %}
+          {% if person.office %}<p><b>Office/Lab:</b> {{ person.office }}</p>{% endif %}
+          {% if person.url %}
+            <p>
+              <a href="{{ person.url }}" target="_blank">
+                <i class="ai ai-google-scholar-square ai-3x"></i>
+              </a>
+            </p>
+          {% endif %}
+        </div>
+        <div class="col-md-4">
+          {% if person.image %}
+            <img src="{{ site.github.url }}/{{ person.image }}" alt="{{ person.name }}" width="50%">
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
-{% endfor %}
+
