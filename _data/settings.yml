@@ -18,7 +18,7 @@ people:
     image: 'assets/img/Rohan Balakrishnan Photo.jpg'
     url: 'https://scholar.google.com/citations?user=-UC9vYoAAAAJ&hl=en'
 
-  - header: Graduate Students
+  - header: Undergraduate Students
   - name: 'Archana Kumm'
     title: 'student'
     department: 'TAMS'
@@ -38,6 +38,8 @@ people:
 
   - header: Past Members
   - name: 'Amaira Nagar'
+    title: 'undergrad'
+  -name: 'Gabriel Matthew'
     title: 'undergrad'
 
     
