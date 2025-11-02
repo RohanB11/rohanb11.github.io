@@ -1,16 +1,21 @@
 ---
 layout: default
 ---
-{% for person in site.data.settings.people.people_list %}
+{% for person in site.data.settings.people %}
   {% if person.header %}
-    <h3 class="header">{{ person.header }}</h3>
+<h3 class="people-header">{{ person.header }}</h3>
   {% else %}
-    <div class="person">
-      <h3>{{ person.name }}</h3>
-      <p>{{ person.position }}</p>
-    </div>
+<div class="person">
+  <h4>{{ person.name }}</h4>
+  <p>{{ person.title }}{% if person.department %}, {{ person.department }}{% endif %}</p>
+  <p>{{ person.institution }}</p>
+  {% if person.email %}
+<p>Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+  {% endif %}
+</div>
   {% endif %}
 {% endfor %}
+
 
 {{ content }}
 <link rel="stylesheet" href="assets/css/academicons.min.css"/>
