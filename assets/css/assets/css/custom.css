@@ -2,4 +2,12 @@
 .people .person p {
     line-height: 1.0; /* smaller number = tighter spacing */
 }
-
+.people .person {
+    margin-bottom: 1rem; /* reduces space between profiles */
+    padding-bottom: 0.5rem; /* optional: tighter grouping */
+}
+/* Adjust name/title spacing */
+.people .person h3,
+.people .person h4 {
+    margin-bottom: 0.2em;
+}
