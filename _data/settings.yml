@@ -6,9 +6,18 @@ menu:
 - {name: 'contact us', url: '/contact'}
 
 people:
-- {name: 'Rohan Balakrishnan', title: 'Assistant Professor', department: 'Biological Sciences', institution: 'University of North Texas', institution_address: '1155 Union Cir, Denton, TX 76205'
-, phone: '', email: 'rohan.balakrishnan@unt.edu', office: 'LIFE A359/LIFE A229', image: 'assets/img/Rohan Balakrishnan Photo.jpg', url: 'https://scholar.google.com/citations?user=-UC9vYoAAAAJ&hl=en'}
-people_list:
+people:
+  - name: 'Rohan Balakrishnan'
+    title: 'Assistant Professor'
+    department: 'Biological Sciences'
+    institution: 'University of North Texas'
+    institution_address: '1155 Union Cir, Denton, TX 76205'
+    phone: ''
+    email: 'rohan.balakrishnan@unt.edu'
+    office: 'LIFE A359/LIFE A229'
+    image: 'assets/img/Rohan Balakrishnan Photo.jpg'
+    url: 'https://scholar.google.com/citations?user=-UC9vYoAAAAJ&hl=en'
+
   - header: Graduate Students
   - name: 'Archana Kumm'
     title: 'student'
@@ -26,9 +35,11 @@ people_list:
     title: 'student'
     department: 'TAMS'
     institution: 'UNT'
+
   - header: Past Members
   - name: 'Amaira Nagar'
     title: 'undergrad'
+
     
 
 
