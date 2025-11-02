@@ -1,0 +1,4 @@
+/* Reduce line spacing in the People tab */
+.people .person p {
+    line-height: 1.2; /* smaller number = tighter spacing */
+}
