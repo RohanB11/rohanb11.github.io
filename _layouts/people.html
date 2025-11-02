@@ -2,11 +2,6 @@
 layout: default
 ---
 
-{{ content }}
-
-<link rel="stylesheet" href="assets/css/academicons.min.css"/>
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-
 <div class="people-container">
   {% for person in site.data.settings.people %}
     {% if person.header %}
