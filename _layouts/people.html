@@ -1,6 +1,20 @@
 ---
 layout: default
 ---
+{% for person in site.data.settings.people %}
+  {% if person.header %}
+    <h3 class="people-header">{{ person.header }}</h3>
+  {% else %}
+    <div class="person">
+      <h4>{{ person.name }}</h4>
+      <p>{{ person.title }}{% if person.department %}, {{ person.department }}{% endif %}</p>
+      <p>{{ person.institution }}</p>
+      {% if person.email %}<p>Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>{% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
+
+
 {% for person in site.data.settings.people.people_list %}
   {% if person.header %}
     <h3 class="header">{{ person.header }}</h3>
