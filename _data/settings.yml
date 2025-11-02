@@ -12,8 +12,9 @@ people:
 - {name: 'Srikar Putrevu', title: 'student', department: 'TAMS', institution: 'UNT'}
 - {name: 'Dongyun Kim', title: 'student', department: 'TAMS', institution: 'UNT'}
 - {name: 'Anika Mallela', title: 'student', department: 'TAMS', institution: 'UNT'}
-- {name: 'Amaira Nagar', title: 'student', institution: 'UNT'}
-- {name: 'Gabriel Matthew', title: 'student', institution: 'UNT'}
+-Past Members
+- {name: 'Amaira Nagar', title: 'undergraduate student', institution: 'UNT'}
+- {name: 'Gabriel Matthew', title: 'undergraduate student', institution: 'UNT'}
 
 
 courses:
