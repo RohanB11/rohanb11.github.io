@@ -15,12 +15,7 @@ layout: default
           {% if person.email %}
 <p>
 <b>Email:</b> <a href="mailto:{{ person.email }}">{{ person.email }}</a>
-{% if person.url %}
-&nbsp;&nbsp;
-<a href="{{ person.url }}" target="_blank" title="Google Scholar">
-<i class="ai ai-google-scholar-square"></i>
-</a>
-{% endif %}
+
 </p>
 {% endif %}
           {% if person.office %}<p><b>Office/Lab:</b> {{ person.office }}</p>{% endif %}
