@@ -18,31 +18,26 @@ people:
     image: 'assets/img/Rohan Balakrishnan Photo.jpg'
     url: 'https://scholar.google.com/citations?user=-UC9vYoAAAAJ&hl=en'
 
-  - header: Undergraduate Students
+  - header: Students
   - name: 'Gia Thanh Nguyen'
-    title: 'student'
-    department: 'Biological Sciences'
+    title: 'Undergraduate student'
+  
   - name: 'Yiheng (Aiden) Jiang'
-    title: 'student'
-    department: 'TAMS'
-
+    title: 'TAMS student'
+    
   - header: Past Members
-  - name: 'Srikar Putrevu, 2025-26'
-    title: 'student'
-    department: 'TAMS'
-  - name: 'Dongyun Kim, 2025-26'
-    title: 'student'
-    department: 'TAMS'
-  - name: 'Archana Kumm, 2025-26'
-    title: 'student'
-    department: 'TAMS'
-  - name: 'Anika Mallela, 2025'
-    title: 'student'
-    department: 'TAMS'
-  - name: 'Amaira Nagar, 2025'
-    title: 'undergrad'
-  - name: 'Gabriel Matthews, 2025'
-    title: 'undergrad'  
+  - name: 'Srikar Putrevu'
+    title: 'TAMS student, 2025-26'
+  - name: 'Dongyun Kim'
+    title: 'TAMS student, 2025-26'
+  - name: 'Archana Kumm'
+    title: 'TAMS student, 2025'
+  - name: 'Anika Mallela'
+    title: 'TAMS student,2025'
+  - name: 'Amaira Nagar'
+    title: 'Undergraduate student, 2025'
+  - name: 'Gabriel Matthews'
+    title: 'Undergraduate student, 2025'  
 
 
 
