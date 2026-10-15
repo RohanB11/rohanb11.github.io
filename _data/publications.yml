@@ -1,5 +1,6 @@
 featured:
 - {name: '<b>†equal contribution *corresponding authors</b>'}
+- {name: 'Gabriel Manzanarez†, Rohan Balakrishnan†, Harish Kannan†, Miriam Abele, Hiroyuki Okano, Fukang She, Zhongge Zhang, Chenhao Wu, Lance Freiman, Christina Ludwig*, Matteo Mori* and Terence Hwa*. <b>Global proteolysis during starvation governs proteome remodeling and a survival–regrowth trade-off in bacteria.</b> <i>Proc Natl Acad Sci</i> (2026).', url: 'https://www.pnas.org/doi/10.1073/pnas.2611560123'}
 - {name: 'Balakrishnan, R†., Mori, M†., Segota, I., Zhang, Z., Okano, H., Aebersold, R., Ludwig, C., Hwa, T. <b>Principles of gene regulation quantitatively connect  DNA to RNA and proteins in bacteria.</b> <i>Science</i> (2022)', url: 'https://www.science.org/doi/full/10.1126/science.abk2066'}
 - {name: 'Wu, C†., Balakrishnan, R†., Braniff, N., Mori, M., Manzanarez, G., Zhang, Z., Hwa, T. <b>Cellular perception of growth rate and the mechanistic origin of bacterial growth laws.</b> <i>Proc Natl Acad Sci </i>(2022).', url: 'https://www.pnas.org/doi/full/10.1073/pnas.2201585119'}
 - {name: 'Balakrishnan, R*., de Silva, RT., Hwa, T., Cremer, J*. <b>Suboptimal proteome allocation during changing environments constrains bacterial response and growth recovery.</b> <i>Mol Syst Biol</i> (2021).', url: 'https://www.embopress.org/doi/full/10.15252/msb.202110597'}
